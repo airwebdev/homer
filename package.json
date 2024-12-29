@@ -1,7 +1,7 @@
 {
     "scripts": {
         "dev": "cross-env BABEL_ENV=default webpack --watch",
-        "build": "cross-env BABEL_ENV=production NODE_ENV=production webpack --optimize-minimize"
+        "build": "cross-env BABEL_ENV=production NODE_ENV=production webpack"
     },
     "devDependencies": {
         "@wordpress/scripts": "16.1.0",

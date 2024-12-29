@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelectorAll(".homer-spoiler");e.length&&e.forEach((function(e){e.addEventListener("click",(function(){this.classList.add("active")}))}))})();

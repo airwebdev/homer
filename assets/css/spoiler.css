@@ -1,0 +1,1 @@
+.homer-spoiler{font-size:0;--font-size: var(--wp--preset--font-size--medium);--color: #000}.homer-spoiler:before{content:attr(data-text);cursor:pointer;color:var(--color);width:auto;font-size:var(--font-size)}.homer-spoiler[data-underline='true']:before{border-bottom:1px solid var(--color)}.homer-spoiler.active{font-size:inherit}.homer-spoiler.active::before{display:none}

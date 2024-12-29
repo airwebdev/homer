@@ -170,6 +170,9 @@ module.exports = {
     ),
     watch: true,
     mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
+    optimization: {
+        minimize: true
+    },
     module: {
         rules: [
             // Run babel to compile JSX and ESNext into ES5

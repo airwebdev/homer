@@ -15,8 +15,3 @@ bower_components
 node_modules
 package-lock.json
 vendor
-
-# Build.
-# -------------------------------------
-assets/js/
-assets/css/
