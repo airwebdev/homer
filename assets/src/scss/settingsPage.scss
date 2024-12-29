@@ -1,0 +1,128 @@
+* {
+    box-sizing: inherit;
+}
+
+#wpcontent {
+    padding-left: 0;
+}
+
+.auto-fold {
+    #wpcontent {
+        padding-left: 0;
+    }
+}
+
+#AIRWEB_HOMER {
+    .components-placeholder {
+        background: #f6f6f6;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+    }
+
+    .homer-header {
+        padding: 20px 10px;
+        background-color: #ffffff;
+        box-shadow: 0 1px 0 rgba(213, 213, 213, 0.5), 0 1px 2px #eee;
+
+        .homer-container {
+            margin: 0 auto;
+            max-width: 100%;
+
+            .homer-logo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    .homer-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        max-width: 1200px;
+
+        .components-panel__body {
+            margin: 25px 0;
+            background: #fff;
+            border: 1px solid #e2e4e7;
+
+            .components-panel__body-toggle {
+                border-bottom: 1px solid #d6e2ed;
+            }
+
+            .components-panel__row {
+                padding: 10px;
+                margin: 0;
+
+                .components-base-control {
+                    .components-base-control__field {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+
+            .components-panel__row label {
+                max-width: 100%;
+            }
+
+        }
+
+        .components-card {
+            margin: 25px 0;
+            background: #fff;
+
+            > div {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            &__body {
+                width: 100%;
+                @media (min-width: 800px) {
+                    width: 50%;
+                }
+            }
+        }
+
+        .homer-info {
+            padding: 0 10px 10px;
+
+            h2 {
+                font-weight: 300;
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin: 0 0 1.5em 0;
+            }
+
+            .homer-info-button-group {
+                display: flex;
+
+                .is-default {
+                    padding: 2px 20px;
+                    height: auto;
+                    font-size: 14px;
+
+                    &:first-child {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.homer {
+    &-settings {
+        &-toggle {
+            &-p {
+                margin-left: 50px;
+            }
+        }
+    }
+}

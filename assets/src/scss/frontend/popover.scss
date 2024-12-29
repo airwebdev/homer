@@ -1,0 +1,36 @@
+/**
+ * Style
+ * 
+ * Global front end styles for the plugin.
+ */
+.homer-popover {
+    position: relative;
+
+    &:after {
+        position: absolute;
+        content: attr(data-text);
+        padding: 15px;
+        width: max-content;
+        max-width: 200px;
+        height: auto;
+        overflow-y: scroll;
+        background-color: #fff;
+        color: currentColor;
+        font-size: var(--font-size);
+        bottom: calc(100% + 5px);
+        left: 50%;
+        pointer-events: none;
+        transform: translateX(-50%) translateY(10px);
+        opacity: 0;
+        transition: all .3s ease-in-out;
+        box-shadow: 0 2px 7px rgba(0,0,0,0.3);
+        border-radius: 4px;
+    }
+
+    &:hover {
+        &:after {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+    }
+}

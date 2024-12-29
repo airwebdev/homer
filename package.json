@@ -1,0 +1,52 @@
+{
+    "scripts": {
+        "dev": "cross-env BABEL_ENV=default webpack --watch",
+        "build": "cross-env BABEL_ENV=production NODE_ENV=production webpack --optimize-minimize"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "16.1.0",
+        "animejs": "^3.2.1",
+        "autoprefixer": "^10.3.4",
+        "@babel/core": "^7.12.0",
+        "@babel/preset-env": "^7.12.0",
+        "@babel/plugin-transform-runtime": "^7.12.0",
+        "@babel/plugin-transform-object-rest-spread": "^7.12.0",
+        "@babel/preset-react": "^7.12.0",
+        "@babel/runtime": "^7.12.0",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-lodash": "^3.3.4",
+        "lodash": "^4.17.21",
+        "charming": "^3.0.2",
+        "classnames": "^2.2.5",
+        "cross-env": "^5.1.1",
+        "css-loader": "^6.7.1",
+        "eslint": "^4.14.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-config-wordpress": "^2.0.0",
+        "eslint-plugin-prettier": "^2.4.0",
+        "eslint-plugin-react": "^7.24.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "mini-css-extract-plugin": "^2.7.6",
+        "postcss": "^8.3.6",
+        "postcss-loader": "^7.3.3",
+        "prettier": "^2.3.0",
+        "raw-loader": "^4.0.2",
+        "sass": "^1.69.5",
+        "sass-loader": "^13.3.2",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^5.1.4"
+    },
+    "version": "1.0.0",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "@wordpress/icons": "^9.14.0",
+        "babel-plugin-lodash": "^3.3.4",
+        "create-react-class": "^15.6.3",
+        "lodash": "^4.17.21",
+        "metascraper": "^5.21.10",
+        "moment": "^2.24.0",
+        "postcss-cli": "^8.3.1",
+        "prop-types": "^15.7.1"
+    }
+}

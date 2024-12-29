@@ -1,0 +1,23 @@
+/**
+ * Admin
+ * 
+ * Global back end styles for the plugin.
+ */
+
+.homer-typewriter {
+    position: relative;
+
+    &.fullwidth {
+        display: block;
+    }
+
+    &:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        bottom: -2px;
+        background: rgba(#333, 0.2);
+    }
+}

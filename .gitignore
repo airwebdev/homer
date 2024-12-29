@@ -1,0 +1,22 @@
+# Git Ignore
+# -----------------------------------------------------------------------------
+
+# Flotsam & Jetsam.
+# -------------------------------------
+.DS_Store
+
+# Composer.
+# -------------------------------------
+composer.lock
+
+# Dependencies.
+# -------------------------------------
+bower_components
+node_modules
+package-lock.json
+vendor
+
+# Build.
+# -------------------------------------
+assets/js/
+assets/css/

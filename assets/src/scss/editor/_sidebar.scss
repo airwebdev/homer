@@ -1,0 +1,38 @@
+.homer {
+    &__sidebar {
+        &-poll {
+            color: var(--wp-admin-theme-color);
+        }
+        
+        &-link {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 20px !important;
+        }
+    }
+
+    &__icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 20px;
+            height: 20px;
+        }
+
+        &.lowercase {
+            &::after {
+                content: 'tt';
+                position: absolute;
+                font-size: 18px;
+                left: 0;
+                top: 0;
+            }
+        }
+
+    }
+}
