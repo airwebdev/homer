@@ -1,62 +1,70 @@
-=== Text Formatting Tools for WordPress Block Editor ===
+# Homer - Text Formatting Tools for WordPress Block Editor
 
-🧰 Block Editor formatting tools to give you more control over your content.
+![WordPress Plugin](https://img.shields.io/wordpress/plugin/v/homer)
+![WordPress Compatibility](https://img.shields.io/wordpress/v/homer)
 
-== Description ==
+🧰 Enhance your WordPress Block Editor with powerful text formatting tools for better content control and presentation.
 
-🧰 Block Editor formatting tools to give you more control over your content.
+## Description
 
-== Formatting Features ==
+Homer adds essential text formatting capabilities to the WordPress Block Editor (Gutenberg), giving you more control over how your content looks and behaves. Perfect for bloggers, content creators, and web developers who want to add extra flair to their content.
 
-1. Text change animation 🔁
+## Features
 
-2. Inline icons library (with gradient) 
+- 🔁 **Text Animation** - Add engaging animations to your text
+- 🎨 **Inline Icons** - Beautiful icon library with gradient support
+- 😊 **Emoji Library** - Quick access to commonly used emojis
+- 💬 **Tooltip Popover** - Add helpful tooltips to any text
+- ❁ **Special Characters** - Extensive library of special characters
+- 🔍 **Accessibility** - Screen reader content support
+- 🌍 **Language Support** - Add language attributes to text blocks
+- 🎭 **Text Effects**:
+  - Hidden text / Spoiler
+  - Text case transformation (Uppercase, Lowercase, Capitalize)
+  - Underline styling
 
-3. Emoji library 😉
+## Installation
 
-4. Tooltip popover 
+1. Download the plugin from WordPress.org or install it directly through your WordPress dashboard
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. No additional configuration needed - the formatting tools will appear in your Block Editor automatically
 
-5. Special characters library ❁
+## Requirements
 
-6. Screen reader content
+- WordPress 6.0 or higher
+- PHP 7.4 or higher
+- Modern web browser with JavaScript enabled
 
-7. Language attribute 🌍
+## Usage
 
-8. Hidden text / Spoiler
+1. Open any post or page with the Block Editor (Gutenberg)
+2. Select the text you want to format
+3. Click the "Homer Formats" button in the toolbar
+4. Choose your desired formatting effect
+5. Customize the effect settings as needed
 
-9. Uppercase text
+### Key Features
 
-10. Lowercase text
+⚙️ **Universal Compatibility**  
+Works with almost any Gutenberg block that supports text formatting
 
-11. Capitalize text
+⚙️ **Customizable Animations**  
+Multiple animation types with adjustable settings
 
-12. Underline text
+⚙️ **Full Control**  
+Customize content, speed, and appearance to match your website design
 
+## Support
 
-== How to use ==
+For support questions, feature requests, or bug reports, please visit our [WordPress.org support forum](https://wordpress.org/support/plugin/homer/).
 
-1. Go to post or page where Gutenberg editor is enabled.
+## Changelog
 
-2. Select the word you want to format.
+### 2.3
+- Removed design library
+- Fixed WordPress 6.7.1 compatibility issues
 
-3. Open more formats via clicking the "Homer Formats" button.
-
-4. Choose the effect you want to apply.
-
-⚙️ **Universal:** With this plugin you can add these effects to the text of almost any Gutenberg block, which is not limiting it format options. 
-
-⚙️ **Animations:** You can choose one of the types of animation that best suits your design, and change the settings to achieve the desired effect.
-
-⚙️ **Completely Customizable:** You can customize the content, speed, etc to make it suitable for your website design
-
-
-== Changelog ==
-
-= 2.3 =
-* Remove design library
-* Fix WordPress 6.7.1 compatibility issues
-
-= 2.1 =
+### 2.1
 * Icons library added
 * Popover added
 * Emoji library added
@@ -64,13 +72,13 @@
 * Language format added
 * Capitalize format added
 
-= 2.0.2 =
+### 2.0.2
 * Settings page
 
-= 2.0.1 =
+### 2.0.1
 * Control the buttons and effects appearing on the new settings page
 
-= 2.0 =
+### 2.0
 * Hidden Text / Spoiler format  added
 * Uppercase format added
 * Lowercase format added
@@ -78,16 +86,16 @@
 * Special Characters format added
 * Dependencies issue fixed
 
-= 1.0.2 =
+### 1.0.2
 * 8 new animations
 * Advanced colors customizing
 * Animation timeline
 * Advanced cursors customizing
 * Fix front-end dependencies bug
 
-= 1.0.1 =
+### 1.0.1
 * Fix docs
 * Start animations when item appear on screen
 
-= 1.0.0 =
+### 1.0.0
 * Initial Release
